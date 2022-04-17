@@ -1,0 +1,8 @@
+// fix cy is not defined
+{
+  "root": true,
+  "extends": ["plugin:cypress/recommended"],
+  "env": {
+    "cypress/globals": true
+  }
+}

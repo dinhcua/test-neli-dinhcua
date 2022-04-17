@@ -1,0 +1,70 @@
+.Todo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid #eee;
+}
+.todo-left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.delete {
+    opacity: 0;
+}
+.Todo:hover .delete {
+    opacity: 1;
+    cursor: pointer;
+}
+.checkmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid #88AED0;
+    margin-right: 15px;
+}
+.todo-name {
+    display: block;
+    position: relative;
+    font-size: 18px;
+}
+.todo-name input {
+    font-size: 18px;
+}
+/* .todo-name::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color:black;
+} */
+.tickmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-right: 15px;
+}
+
+.Todo:nth-child(1) {
+    border-radius: 10px 10px 0 0 ;
+}
+
+.edit-todo {
+    border: none;
+    width: 550px;
+}
+.edit-todo:focus {
+    outline: none;
+    border-bottom: 1px solid #eee ;
+}

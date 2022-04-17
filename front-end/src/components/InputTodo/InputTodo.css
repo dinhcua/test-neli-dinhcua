@@ -1,0 +1,39 @@
+.input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.input-todo {
+    width: 100%;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    border:none
+}
+.input-todo:focus {
+    outline: none;
+}
+
+.addmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #88AED0;
+}
+.cancel-input {
+    visibility: visible;
+    cursor: pointer;
+}
+.cancel-input-hiden {
+    visibility: hidden;
+}
+.input-todo:focus .cancel-input {
+    opacity: 1;
+}

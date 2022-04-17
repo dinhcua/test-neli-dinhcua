@@ -1,0 +1,43 @@
+.TodoAction {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #eee;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 20px;
+}
+.action-center {
+    display: flex;
+}
+.action-center p {
+    margin-inline: 10px;
+    box-sizing: border-box;
+}
+
+.btn-all ,
+.btn-active,
+.btn-completed {
+    cursor: pointer;
+    color: #888;
+}
+.btn-all:hover ,
+.btn-active:hover,
+.btn-completed:hover {
+    font-weight: bold;
+    color: #000;
+}
+
+.btn-clear-completed {
+    cursor: pointer;
+    color: #888;
+}
+.btn-clear-completed:hover {
+    color: #000;
+}
+.todo-done {
+    text-decoration: line-through;
+}
+
+.btn-all.all, .btn-active.active, .btn-completed.completed {
+    font-weight: bold;
+    color: #000;
+}
